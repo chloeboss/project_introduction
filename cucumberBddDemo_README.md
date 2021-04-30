@@ -1,3 +1,13 @@
+#### Author Contact Info
+```
+Chloe Zeng
+chloezeng310@gmail.com
++64 021 183 2827
+```
+#### Repo link
+https://github.com/chloeboss/cucumberBddDemo
+
+
 # Cucumber BDD Demo
 
 This automation framework is to API layer and UI layer. Both projects are using Cucumber BDD Style.
@@ -97,12 +107,7 @@ https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&def
 ### Mock Data & Log
 TBD
 
-#### Author Contact Info
-```
-Chloe Zeng
-chloezeng310@gmail.com
-+64 021 183 2827
-```
+
 
 
 
