@@ -5,7 +5,7 @@ chloezeng310@gmail.com
 +64 021 183 2827
 ```
 #### Repo link
-https://github.com/chloeboss/cucumberBddDemo
+https://github.com/chloeboss/cucumber-bdd-demo
 
 
 # Cucumber BDD Demo
@@ -101,7 +101,7 @@ Feature: This is feature about API-Todo
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
 
-![Test Image 6](src/test/resources/cucumberBdddemoAzure.png)
+![Test Image 6](images/cucumberBdddemoAzure.png)
 
 
 ### Mock Data & Log
