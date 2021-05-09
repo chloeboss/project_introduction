@@ -34,7 +34,7 @@ Then success code 200
 * Send Post/Get/Delete/Put HTTP request 
 * Deserialize Json Response
 * ParallelExecution using Context dependency Injection Bodi
-
+* Reporting - extent reports
 
 ### Way to execute the tests
 1. VS from Test Explorer
