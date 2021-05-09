@@ -1,0 +1,94 @@
+2021-05-07 16:14:11.2357|INFO|WebAutomation.Util.Hooks|SPECFLOW:: BeforeTestRun
+---------------------------------------------------
+2021-05-07 16:14:11.2526|INFO|WebAutomation.Util.Common.CommonUtils|Clearing Test Reprots
+2021-05-07 16:14:11.2586|INFO|WebAutomation.Util.Common.CommonUtils|Clearing Screenshots
+2021-05-07 16:14:11.6764|INFO|WebAutomation.Util.Common.CommonUtils|Initaling Report
+2021-05-07 16:14:12.1801|INFO|WebAutomation.Util.Hooks|******************SPECFLOW:: BeforeFeatureHooks
+******************
+2021-05-07 16:14:12.1801|INFO|WebAutomation.Util.Hooks|******************SPECFLOW:: BeforeFeatureHooks
+******************
+2021-05-07 16:14:12.5649|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: BeforeScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:12.5649|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: BeforeScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:13.4164|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:14:13.4164|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:14:18.7525|INFO|WebAutomation.Helper.Browser|Navigate to url:: https://www.google.com
+2021-05-07 16:14:18.7605|INFO|WebAutomation.Helper.Browser|Navigate to url:: https://www.google.com
+2021-05-07 16:14:18.7605|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //img[@alt='Google']
+2021-05-07 16:14:18.7605|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //img[@alt='Google']
+2021-05-07 16:14:18.9874|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: AfterScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:18.9874|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: AfterScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:19.3532|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: BeforeScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:19.3532|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:14:19.4971|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: BeforeScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:19.4971|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:14:25.7656|INFO|WebAutomation.Helper.Browser|Navigate to url:: http://automationpractice.com/index.php
+2021-05-07 16:14:25.7706|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //*[@id='homefeatured']/li[1]/div/div[1]/div/a[1]/img
+2021-05-07 16:14:25.8586|INFO|WebAutomation.Helper.Browser|Navigate to url:: http://automationpractice.com/index.php
+2021-05-07 16:14:25.8586|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //*[@id='homefeatured']/li[1]/div/div[1]/div/a[1]/img
+2021-05-07 16:14:28.6030|INFO|WebAutomation.Helper.Button|Clicking button::
+2021-05-07 16:14:28.6030|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //img[@id='bigpic']
+2021-05-07 16:14:28.7159|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: AfterScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:28.7359|INFO|WebAutomation.Helper.Button|Clicking button::
+2021-05-07 16:14:28.7359|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //img[@id='bigpic']
+2021-05-07 16:14:28.8578|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: AfterScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:29.0107|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: BeforeScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:29.0107|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:14:35.8608|INFO|WebAutomation.Helper.Browser|Navigate to url:: http://automationpractice.com/index.php
+2021-05-07 16:14:35.8638|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //a[@title = 'Log in to your customer account']
+2021-05-07 16:14:37.9776|INFO|WebAutomation.Helper.Button|Clicking button::signInButton
+2021-05-07 16:14:37.9776|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: email
+2021-05-07 16:14:38.0985|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: email
+2021-05-07 16:14:38.3134|INFO|WebAutomation.Helper.Message|Sending key to element:: email, message is::test
+2021-05-07 16:14:38.3134|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: passwd
+2021-05-07 16:14:38.5623|INFO|WebAutomation.Helper.Message|Sending key to element:: password, message is::test
+2021-05-07 16:14:38.5623|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: SubmitLogin
+2021-05-07 16:14:39.8475|INFO|WebAutomation.Helper.Button|Clicking button::LoginButton
+2021-05-07 16:14:39.8475|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //*[text()='There is 1 error']
+2021-05-07 16:14:39.9445|INFO|WebAutomation.Util.Hooks|<<<<<<<<<<<<<SPECFLOW:: AfterScenarioHooks
+>>>>>>>>>>>>>>
+2021-05-07 16:14:40.2803|INFO|WebAutomation.Util.Hooks|SPECFLOW:: AfterTestRun 
+---------------------------------------------------
+2021-05-07 16:15:18.5392|INFO|WebAutomation.Base.TestBase|MSTest:: TestInitialize Driver Initlaioze
+2021-05-07 16:15:18.8490|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:15:21.6884|INFO|WebAutomation.Helper.Browser|Maximize Browser
+2021-05-07 16:15:50.3559|INFO|WebAutomation.Helper.Browser|Navigate to url:: http://automationpractice.com/index.php
+2021-05-07 16:15:50.3669|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //*[@id='homefeatured']/li[1]/div/div[1]/div/a[1]/img
+2021-05-07 16:15:53.2063|INFO|WebAutomation.Helper.Button|Clicking button::
+2021-05-07 16:15:53.2063|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //img[@id='bigpic']
+2021-05-07 16:15:53.6970|INFO|WebAutomation.Base.TestBase|MSTest:: TestInitialize Driver Initlaioze
+2021-05-07 16:15:53.6970|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:15:55.2351|INFO|WebAutomation.Helper.Browser|Maximize Browser
+2021-05-07 16:15:58.5592|INFO|WebAutomation.Helper.Browser|Navigate to url:: http://automationpractice.com/index.php
+2021-05-07 16:15:58.5592|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //a[@title = 'Log in to your customer account']
+2021-05-07 16:16:00.7379|INFO|WebAutomation.Helper.Button|Clicking button::signInButton
+2021-05-07 16:16:00.7379|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: email
+2021-05-07 16:16:01.0237|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: email
+2021-05-07 16:16:01.2166|INFO|WebAutomation.Helper.Message|Sending key to element:: email, message is::test
+2021-05-07 16:16:01.2166|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: passwd
+2021-05-07 16:16:01.4435|INFO|WebAutomation.Helper.Message|Sending key to element:: password, message is::test
+2021-05-07 16:16:01.4435|INFO|WebAutomation.DriverExtension|Finding element :: By.Id: SubmitLogin
+2021-05-07 16:16:02.4779|INFO|WebAutomation.Helper.Button|Clicking button::LoginButton
+2021-05-07 16:16:02.7558|INFO|WebAutomation.Base.TestBase|MSTest:: TestInitialize Driver Initlaioze
+2021-05-07 16:16:02.7558|INFO|WebAutomation.Util.Driver.DriverUtils|Driver Type is ChromeHeadless
+2021-05-07 16:16:04.5777|INFO|WebAutomation.Helper.Browser|Maximize Browser
+2021-05-07 16:16:13.5146|INFO|WebAutomation.Helper.Browser|Navigate to url:: https://www.countdown.co.nz/
+2021-05-07 16:16:13.5216|INFO|WebAutomation.Helper.Browser|Switching to main window
+2021-05-07 16:16:13.5216|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //a[@id = 'signInButton' and contains(@title,'Sign in')]
+2021-05-07 16:16:13.9123|INFO|WebAutomation.DriverExtension|Finding element :: By.XPath: //a[text()='Pharmacy']
+2021-05-07 16:16:15.9831|INFO|WebAutomation.Helper.Link|Clicking the link::pharmacyLink
+2021-05-07 16:16:42.8157|INFO|WebAutomation.Util.Hooks|SPECFLOW:: BeforeTestRun
+---------------------------------------------------
+2021-05-07 16:16:42.8307|INFO|WebAutomation.Util.Common.CommonUtils|Clearing Test Reprots
+2021-05-07 16:16:42.8437|INFO|WebAutomation.Util.Common.CommonUtils|Clearing Screenshots
+2021-05-07 16:16:42.8746|INFO|WebAutomation.Util.Common.CommonUtils|Initaling Report
+2021-05-07 16:16:54.9172|INFO|WebAutomation.Util.Hooks|SPECFLOW:: AfterTestRun 
+---------------------------------------------------
