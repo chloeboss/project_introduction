@@ -1,4 +1,4 @@
-# cypressTest
+# Cypress Test Project
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cypressTest?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=9&branchName=master)
 #### Author Contact Info
 ```
@@ -10,7 +10,7 @@ chloezeng310@gmail.com
 #### Repo link
 https://github.com/chloeboss/appiumTests/tree/develop
 
-# cypressTest project introduction
+## project introduction
 This tool is using for end-to-end, Integration testing which only written in JavaScript. for info please go cypress website
 This demo is using cucumber Bdd style to write tests.
 
@@ -110,7 +110,7 @@ there are three steps to generate cucumber report
 cucumber report example under _reports/cucumber_report/index.html_
 ![Test Image](images/cypress-report.png)
 
-## Azure Continuous Integration
+## Continuous Integration
 > Running Cypress in Continuous Integration is almost the same as running it locally in your terminal. You generally only need to do two things:
 
 1. Install Cypress

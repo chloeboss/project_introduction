@@ -1,3 +1,6 @@
+# Cucumber BDD Demo
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
+
 #### Author Contact Info
 ```
 Chloe Zeng
@@ -6,12 +9,6 @@ chloezeng310@gmail.com
 ```
 #### Repo link
 https://github.com/chloeboss/cucumber-bdd-demo
-
-[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
-
-# Cucumber BDD Demo
-
-This automation framework is to API layer and UI layer. Both projects are using Cucumber BDD Style.
 
 ### UI automation introduction
 UI part is a _Java Maven_ project which using _Selenium, Junit, Cucumber under Page Object Design Pattern_. 
@@ -60,7 +57,7 @@ Feature: This is feature about Website called Countdown
 3. run `RunCucumberTest` with Junit
 
 
-### Run in Cloud Environment
+### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?view=all&_a=releases&definitionId=14
 ![Test Image 6](images/cucumberBdddemoAzure.png)

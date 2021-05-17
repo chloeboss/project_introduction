@@ -1,3 +1,7 @@
+# Specflow ui demo
+
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
+
 #### Author Contact Info
 ```
 Chloe Zeng
@@ -6,12 +10,10 @@ chloezeng310@gmail.com
 ```
 
 #### Repo link
-https://github.com/chloeboss/specflow-demo/tree/develop/WebAutomation
-
-[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
-# Specflow ui demo
+https://github.com/chloeboss/specflow-demo/tree/develop/WebAutomation \
 Build in .NETFramework472, Unit Test Provider is `Specflow.Nunit`
 
+### feature scenarios
 Here is the example ui scenario
 ```Gherkin 
 @UI
@@ -53,6 +55,13 @@ using NUnit.Framework;
 [assembly: Parallelizable(ParallelScope.Fixtures)]
 ```
 >Note: SpecFlow does not support scenario level parallelization with NUnit (when scenarios from the same feature execute in parallel). If you configure a higher level NUnit parallelization than “Fixtures” your tests will fail with runtime errors.
+
+### Continuous Integration
+Run in Azure Pipeline
+https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
+
+![Test Image 6](images/specflow_demo_azure.png)
+
 
 ### SpecFlow+ LivingDoc
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html

@@ -1,3 +1,5 @@
+# Restsharp specflow Api Demo
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 
 #### Author Contact Info
 ```
@@ -8,9 +10,8 @@ chloezeng310@gmail.com
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation \
-[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 
-# Restsharp specflow Api Demo
+### project introduction
 Unit Test Provider is `Specflow.MsTest`
 There are multiple options to test Api eg: Postman, Swagger. In this Demo, I am using RestSharp which is one of the most used library for REST API automation testing. Also, this project is using BDD style
 > Rest-Sharp library also provides ability to validate the HTTP Responses received from server. For e.g. we can verify the Status code, Status message, Headers and even the Body of the response.
@@ -88,7 +89,7 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
       [assembly: Parallelize(Scope = ExecutionScope.ClassLevel)]
   ```
 
-### Run in Cloud Environment
+### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
 

@@ -1,3 +1,7 @@
+# Cucumber BDD Demo
+
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
+
 #### Author Contact Info
 ```
 Chloe Zeng
@@ -6,12 +10,6 @@ chloezeng310@gmail.com
 ```
 #### Repo link
 https://github.com/chloeboss/cucumber-bdd-demo
-
-[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
-
-# Cucumber BDD Demo
-
-This automation framework is to API layer and UI layer. Both projects are using Cucumber BDD Style.
 
 ### API automation introduction
 There are multiple options to test Api eg: Postman, Swagger. In this Demo, I am using Rest Assured which is one of the most used library for REST API automation testing.
@@ -68,7 +66,7 @@ Feature: This is feature about API-Todo
 3. run `RunCucumberTest` with Junit
 
 
-### Run in Cloud Environment
+### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
 
