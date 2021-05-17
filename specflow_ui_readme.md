@@ -67,6 +67,11 @@ https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&def
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
 ![Test Image](images/specflowLiving-ui.png)
 
+<img src="https://github.com/chloeboss/project_introduction/main/images/specflowLiving-ui.png" width="100" />
+<img src="https://github.com/chloeboss/project_introduction/main/images/specflowLiving-ui.png" width="324" height="324" />
+
+<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="324" height="324" />
+
 ### Logging
 I use Nlog for this demo, Nlog can log an activity of test application. It can target to different places: files, db, email, console
 Also, it provides different severity/level: Fatal, Error, Warn, Info, Debug, Trace

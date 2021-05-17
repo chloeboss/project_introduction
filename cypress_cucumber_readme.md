@@ -71,7 +71,7 @@ In the real life, tests sometimes fail due to unpredictable, for example:
 - Resource dependencies availability
 - Network issues
   In this demo, I did configuration file `cypress.json` \
-```
+```json
   "retries": {
     // Configure retry attempts for `cypress run`
     // Default is 0
@@ -89,7 +89,7 @@ TBD paid feature
 ### junit report
 There are 2 available for Mocha, no need to install- teamcity and junit. this demo is using junit and cucumber
 
-```
+```json
 "reporter": "mocha-junit-reporter",
   "reporterOptions": {
     "mochaFile": "cypress/results/reports/junit/test-results.[hash].xml",
