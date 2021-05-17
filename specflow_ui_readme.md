@@ -68,6 +68,8 @@ introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sb
 ![Test Image](images/specflowLiving-ui.png)
 
 <img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="450"/>
+<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="800"/>
+<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="1000"/>
 
 ### Logging
 I use Nlog for this demo, Nlog can log an activity of test application. It can target to different places: files, db, email, console
