@@ -1,5 +1,5 @@
 # cypressTest
-
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cypressTest?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=9&branchName=master)
 #### Author Contact Info
 ```
 Chloe Zeng

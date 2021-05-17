@@ -7,7 +7,8 @@ chloezeng310@gmail.com
 ```
 
 #### Repo link
-https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation
+https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation \
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 
 # Restsharp specflow Api Demo
 Unit Test Provider is `Specflow.MsTest`

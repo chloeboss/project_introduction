@@ -8,6 +8,7 @@ chloezeng310@gmail.com
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/WebAutomation
 
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 # Specflow ui demo
 Build in .NETFramework472, Unit Test Provider is `Specflow.Nunit`
 

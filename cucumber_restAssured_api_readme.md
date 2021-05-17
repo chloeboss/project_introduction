@@ -7,6 +7,7 @@ chloezeng310@gmail.com
 #### Repo link
 https://github.com/chloeboss/cucumber-bdd-demo
 
+[![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
 
 # Cucumber BDD Demo
 
