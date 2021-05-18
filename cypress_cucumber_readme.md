@@ -120,7 +120,7 @@ cucumber report example under _reports/cucumber_report/index.html_
 
 This demo is run on Azure devops, key task is *Cache* the ~/.cache folder after running
 
-here is the screenshot from azure
+here is the screenshot from azure\
 <img src="images/cypress-azureCi.png" alt="cypress-azureCi" width="700"/>
 
 
