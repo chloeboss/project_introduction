@@ -17,7 +17,9 @@ This demo is using cucumber Bdd style to write tests.
 ## Run tests
 (requires npm@5.2.0 or greater)
 * run via client side, run command: `npx cypress open`, it would open client. this demo set only feature file only
-  ![Test Image](images/cypress-client.png)
+  "![Test Image](images/cypress-client.png)"
+  <img src="images/cypress-client.png" alt="cypress-client" width="500"/>
+
 
 * run by command\
   `npx cypress run`
@@ -108,7 +110,8 @@ there are three steps to generate cucumber report
    `node report.js`
 
 cucumber report example under _reports/cucumber_report/index.html_
-![Test Image](images/cypress-report.png)
+"![Test Image](images/cypress-report.png)"
+<img src="images/cypress-report.png" alt="cypress-report" width="800"/>
 
 ## Continuous Integration
 > Running Cypress in Continuous Integration is almost the same as running it locally in your terminal. You generally only need to do two things:
@@ -120,7 +123,9 @@ cucumber report example under _reports/cucumber_report/index.html_
 This demo is run on Azure devops, key task is *Cache* the ~/.cache folder after running
 
 here is the screenshot from azure
-![Test Image](images/cypress-azureCi.png)
+"![Test Image](images/cypress-azureCi.png)"
+<img src="images/cypress-azureCi.png" alt="cypress-azureCi" width="800"/>
+
 
 ### Run test parallel
 see example from cypress https://github.com/cypress-io/cypress-example-kitchensink/blob/master/azure-ci.yml

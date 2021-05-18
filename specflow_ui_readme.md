@@ -59,17 +59,12 @@ using NUnit.Framework;
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
-
-![Test Image 6](images/specflow_demo_azure.png)
+<img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
 
 
 ### SpecFlow+ LivingDoc
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
-![Test Image](images/specflowLiving-ui.png)
-
-<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="450"/>
 <img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="800"/>
-<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="1000"/>
 
 ### Logging
 I use Nlog for this demo, Nlog can log an activity of test application. It can target to different places: files, db, email, console

@@ -76,7 +76,6 @@ advantage:
 Conclusion: A living documentation is one of those rare tools in software development that offers something of value to all three roles in BDD – Product Owner, Developer and Tester.
 And specflow seems is doing really good at it.
 > ~~note: please find sample report under restsharp_api folder~~
->![Test Image 1](restsharp_api/extentreport.png)
 
 ### Way to execute the tests
 from VS, navigator to Test Explorer, run the tests, if you wish to run parallel, then select multiple features to run
@@ -92,12 +91,12 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
-
-![Test Image 6](images/specflow_demo_azure.png)
+<img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
 
 ### SpecFlow+ LivingDoc
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
-![Test Image](images/specflowLiving-api.png)
+<img src="images/specflowLiving-api.png" alt="specflowLiving-api" width="800"/>
+
 
 
 ### Todo
