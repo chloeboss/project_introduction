@@ -20,8 +20,7 @@ This demo is using cucumber Bdd style to write tests.
 ## Run tests
 (requires npm@5.2.0 or greater)
 * run via client side, run command: `npx cypress open`, it would open client. this demo set only feature file only
-  <img src="images/cypress-client.png" alt="cypress-client" width="500"/>
-
+  <img src="images/cypressclient.gif" alt="cypress-client" width="700"/>
 
 * run by command\
   `npx cypress run`

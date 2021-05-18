@@ -66,13 +66,13 @@ https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&def
 <img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
 
 ### SpecFlow+ LivingDoc
-introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
+Specflow Living is a living document that makes sense in your CI/CD process. Overlay test results and automatically update your documentation with every new build.
 <img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="800"/>
 
 ### Logging
-I use Nlog for this demo, Nlog can log an activity of test application. It can target to different places: files, db, email, console
+This demo uses Nlog, Nlog can log an activity of test application. It can target to different places: files, db, email, console
 Also, it provides different severity/level: Fatal, Error, Warn, Info, Debug, Trace
-configured at file, Nlog.config, sample log file see here
+configured at file, Nlog.config, sample log file go to folder > specflow-ui > sample_log.log
 
 
 ### Note

@@ -58,6 +58,7 @@ Feature: This is feature about Website called Countdown
 2. run from `feature` file
 3. run `RunCucumberTest` with Junit
 
+<img src="images/cucumber-parallel-ui.gif" alt="cucumber-parallel-ui" width="700"/>
 
 ### Continuous Integration
 Run in Azure Pipeline
