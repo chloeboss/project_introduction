@@ -89,8 +89,6 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
       using Microsoft.VisualStudio.TestTools.UnitTesting;
       [assembly: Parallelize(Scope = ExecutionScope.ClassLevel)]
   ```
-![api test execution](images/specflow-parallel-api.gif)
-
 <img src="images/specflow-parallel-api.gif" alt="api test execution" width="450"/>
 
 
