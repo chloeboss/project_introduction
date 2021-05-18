@@ -70,8 +70,7 @@ Feature: This is feature about API-Todo
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
 
-![Test Image 6](images/cucumberBdddemoAzure.png)
-
+<img src="images/cucumberBdddemoAzure.png" alt="cucumberBdddemoAzure" width="700"/>
 
 ### Mock Data & Log
 TBD

@@ -60,7 +60,8 @@ Feature: This is feature about Website called Countdown
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?view=all&_a=releases&definitionId=14
-![Test Image 6](images/cucumberBdddemoAzure.png)
+<img src="images/cucumberBdddemoAzure.png" alt="cucumberBdddemoAzure" width="700"/>
+
 
 
 ### Mock Data & Log
