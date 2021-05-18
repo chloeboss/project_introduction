@@ -12,9 +12,9 @@ chloezeng310@gmail.com
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation \
+Build in .NETFramework472, Unit Test Provider is `Specflow.MsTest`
 
 ### project introduction
-Unit Test Provider is `Specflow.MsTest`
 There are multiple options to test Api eg: Postman, Swagger. In this Demo, I am using RestSharp which is one of the most used library for REST API automation testing. Also, this project is using BDD style
 > Rest-Sharp library also provides ability to validate the HTTP Responses received from server. For e.g. we can verify the Status code, Status message, Headers and even the Body of the response.
 
@@ -89,6 +89,8 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
       using Microsoft.VisualStudio.TestTools.UnitTesting;
       [assembly: Parallelize(Scope = ExecutionScope.ClassLevel)]
   ```
+![api test execution](images/specflow-parallel-api.gif)
+
 
 ### Continuous Integration
 Run in Azure Pipeline

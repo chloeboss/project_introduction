@@ -58,11 +58,12 @@ using NUnit.Framework;
 ```
 >Note: SpecFlow does not support scenario level parallelization with NUnit (when scenarios from the same feature execute in parallel). If you configure a higher level NUnit parallelization than “Fixtures” your tests will fail with runtime errors.
 
+![api test execution](images/specflow-parallel-web.gif)
+
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
 <img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
-
 
 ### SpecFlow+ LivingDoc
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
