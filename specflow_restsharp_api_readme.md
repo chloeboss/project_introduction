@@ -63,7 +63,7 @@ Scenario: Add A Todo
         | completed | false |
 ```
 
-####Execute request with Powerful Generic Deserialization
+#### Execute request with Powerful Generic Deserialization
 * Use _*Type para*_, the type pare represents the model of deserialization.
   eg, in this demo, model is <Todo>. we send requests under model, it would return the object of model after deserialization "Response.Data",
   >Response = Client.Execute<Todo>(Request)
@@ -102,8 +102,8 @@ introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sb
 
 
 ### Todo
-Mock Data & Log
-JWT token
+Mock Data 
+
 
 ### useful links
 https://restsharp.dev/
