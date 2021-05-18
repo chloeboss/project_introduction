@@ -91,6 +91,8 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
   ```
 ![api test execution](images/specflow-parallel-api.gif)
 
+<img src="specflow-parallel-api.gif" alt="api test execution" width="450"/>
+
 
 ### Continuous Integration
 Run in Azure Pipeline
