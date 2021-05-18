@@ -1,7 +1,7 @@
 # Cypress Test Project
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cypressTest?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=9&branchName=master)
 
-<img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/12/12"/>
+<a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/12/12"/>
 
 #### Author Contact Info
 ```
