@@ -9,8 +9,9 @@
 Chloe Zeng
 chloezeng310@gmail.com
 +64 021 183 2827
+Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
-#### Repo link
+#### Repo link 
 https://github.com/chloeboss/cucumber-bdd-demo
 
 ### API automation introduction
