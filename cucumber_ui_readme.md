@@ -1,11 +1,14 @@
 # Cucumber BDD Demo
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-bdd-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=11&branchName=master)
 
+<a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/14/14"/>
+
 #### Author Contact Info
 ```
 Chloe Zeng
 chloezeng310@gmail.com
 +64 021 183 2827
+Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
 #### Repo link
 https://github.com/chloeboss/cucumber-bdd-demo
@@ -56,11 +59,13 @@ Feature: This is feature about Website called Countdown
 2. run from `feature` file
 3. run `RunCucumberTest` with Junit
 
+<img src="images/cucumber-parallel-ui.gif" alt="cucumber-parallel-ui" width="700"/>
 
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?view=all&_a=releases&definitionId=14
-![Test Image 6](images/cucumberBdddemoAzure.png)
+<img src="images/cucumberBdddemoAzure.png" alt="cucumberBdddemoAzure" width="700"/>
+
 
 
 ### Mock Data & Log

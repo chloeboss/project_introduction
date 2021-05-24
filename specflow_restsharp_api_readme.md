@@ -1,18 +1,21 @@
 # Restsharp specflow Api Demo
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 
+<a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/15/15"/>
+
 #### Author Contact Info
 ```
 Chloe Zeng
 chloezeng310@gmail.com
 +64 021 183 2827
+Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation \
+Build in .NETFramework472, Unit Test Provider is `Specflow.MsTest`
 
 ### project introduction
-Unit Test Provider is `Specflow.MsTest`
 There are multiple options to test Api eg: Postman, Swagger. In this Demo, I am using RestSharp which is one of the most used library for REST API automation testing. Also, this project is using BDD style
 > Rest-Sharp library also provides ability to validate the HTTP Responses received from server. For e.g. we can verify the Status code, Status message, Headers and even the Body of the response.
 
@@ -61,7 +64,7 @@ Scenario: Add A Todo
         | completed | false |
 ```
 
-####Execute request with Powerful Generic Deserialization
+#### Execute request with Powerful Generic Deserialization
 * Use _*Type para*_, the type pare represents the model of deserialization.
   eg, in this demo, model is <Todo>. we send requests under model, it would return the object of model after deserialization "Response.Data",
   >Response = Client.Execute<Todo>(Request)
@@ -76,7 +79,6 @@ advantage:
 Conclusion: A living documentation is one of those rare tools in software development that offers something of value to all three roles in BDD – Product Owner, Developer and Tester.
 And specflow seems is doing really good at it.
 > ~~note: please find sample report under restsharp_api folder~~
->![Test Image 1](restsharp_api/extentreport.png)
 
 ### Way to execute the tests
 from VS, navigator to Test Explorer, run the tests, if you wish to run parallel, then select multiple features to run
@@ -88,21 +90,23 @@ By default, Mstest does not run parallel, this demo uses specflow.Mstest, it con
       using Microsoft.VisualStudio.TestTools.UnitTesting;
       [assembly: Parallelize(Scope = ExecutionScope.ClassLevel)]
   ```
+<img src="images/specflow-parallel-api.gif" alt="api test execution" width="450"/>
+
 
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
-
-![Test Image 6](images/specflow_demo_azure.png)
+<img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
 
 ### SpecFlow+ LivingDoc
 introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
-![Test Image](images/specflowLiving-api.png)
+<img src="images/specflowLiving-api.png" alt="specflowLiving-api" width="800"/>
+
 
 
 ### Todo
-Mock Data & Log
-JWT token
+Mock Data 
+
 
 ### useful links
 https://restsharp.dev/

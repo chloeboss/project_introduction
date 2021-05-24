@@ -2,11 +2,14 @@
 
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.specflow-demo?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=10&branchName=master)
 
+<a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/15/15"/>
+
 #### Author Contact Info
 ```
 Chloe Zeng
 chloezeng310@gmail.com
 +64 021 183 2827
+Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
 
 #### Repo link
@@ -56,21 +59,21 @@ using NUnit.Framework;
 ```
 >Note: SpecFlow does not support scenario level parallelization with NUnit (when scenarios from the same feature execute in parallel). If you configure a higher level NUnit parallelization than “Fixtures” your tests will fail with runtime errors.
 
+<img src="images/specflow-parallel-web.gif" alt="specflow web para" width="450"/>
+
 ### Continuous Integration
 Run in Azure Pipeline
 https://dev.azure.com/chlozeng/MyFirstProject/_release?_a=releases&view=mine&definitionId=9
-
-![Test Image 6](images/specflow_demo_azure.png)
-
+<img src="images/specflow_demo_azure.png" alt="specflow_demo_azure" width="450"/>
 
 ### SpecFlow+ LivingDoc
-introduction: https://docs.specflow.org/projects/specflow-livingdoc/en/latest/sbsguides/sbsazdo.html
-![Test Image](images/specflowLiving-ui.png)
+Specflow Living is a living document that makes sense in your CI/CD process. Overlay test results and automatically update your documentation with every new build.
+<img src="images/specflowLiving-ui.png" alt="specflowLiving-ui" width="800"/>
 
 ### Logging
-I use Nlog for this demo, Nlog can log an activity of test application. It can target to different places: files, db, email, console
+This demo uses Nlog, Nlog can log an activity of test application. It can target to different places: files, db, email, console
 Also, it provides different severity/level: Fatal, Error, Warn, Info, Debug, Trace
-configured at file, Nlog.config, sample log file see here
+configured at file, Nlog.config, sample log file go to folder > specflow-ui > sample_log.log
 
 
 ### Note

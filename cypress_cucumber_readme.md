@@ -1,14 +1,18 @@
 # Cypress Test Project
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cypressTest?branchName=master)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=9&branchName=master)
+
+<a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/12/12"/>
+
 #### Author Contact Info
 ```
 Chloe Zeng
 chloezeng310@gmail.com
 +64 021 183 2827
+Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
 
-#### Repo link
-https://github.com/chloeboss/appiumTests/tree/develop
+#### [Cypress Test Project Live Demo link(host in github)](https://github.com/chloeboss/appiumTests/tree/develop)
+
 
 ## project introduction
 This tool is using for end-to-end, Integration testing which only written in JavaScript. for info please go cypress website
@@ -17,7 +21,7 @@ This demo is using cucumber Bdd style to write tests.
 ## Run tests
 (requires npm@5.2.0 or greater)
 * run via client side, run command: `npx cypress open`, it would open client. this demo set only feature file only
-  ![Test Image](images/cypress-client.png)
+  <img src="images/cypressclient.gif" alt="cypress-client" width="700"/>
 
 * run by command\
   `npx cypress run`
@@ -107,10 +111,10 @@ there are three steps to generate cucumber report
 4. generate report by running command \
    `node report.js`
 
-cucumber report example under _reports/cucumber_report/index.html_
-![Test Image](images/cypress-report.png)
+cucumber report example under _reports/cucumber_report/index.html_\
+<img src="images/cypress-report.png" alt="cypress-report" width="700"/>
 
-## Continuous Integration
+## ☁️ Continuous Integration
 > Running Cypress in Continuous Integration is almost the same as running it locally in your terminal. You generally only need to do two things:
 
 1. Install Cypress
@@ -119,14 +123,15 @@ cucumber report example under _reports/cucumber_report/index.html_
 
 This demo is run on Azure devops, key task is *Cache* the ~/.cache folder after running
 
-here is the screenshot from azure
-![Test Image](images/cypress-azureCi.png)
+here is the screenshot from azure\
+<img src="images/cypress-azureCi.png" alt="cypress-azureCi" width="700"/>
+
 
 ### Run test parallel
 see example from cypress https://github.com/cypress-io/cypress-example-kitchensink/blob/master/azure-ci.yml
 
 
-## Advantages of Cypress
+## ☀️ Advantages of Cypress 
 There are few reasons why this tool is conventent at the moment.
 1. Cypress framework captures snapshots at the time of test execution. This allows QAs or developers to hover over a specific command in the Command Log to see exactly what happened at that particular step.
 2. Cypress doesn’t need to add explicit or implicit wait commands in test scripts, unlike Selenium. Cypress waits automatically for commands and assertions.
@@ -134,9 +139,11 @@ There are few reasons why this tool is conventent at the moment.
    The automatic scrolling operation ensures that an element is in view before performing any action (for example Clicking on a button)
 4. As the programmer writes commands, Cypress executes them in real-time, providing visual feedback as they run.
 
-## Limitations of Cypress
+## ☔ Limitations of Cypress 
 1. One cannot use Cypress to drive two browsers at the same time
 2. It doesn’t provide support for multi-tabs
 3. Cypress only supports JavaScript for creating test cases
 4. Cypress doesn’t provide support for browsers like Safari and IE at the moment.
 5. Limited support for iFrames
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
