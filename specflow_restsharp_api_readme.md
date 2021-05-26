@@ -13,7 +13,7 @@ Linkedin: https://www.linkedin.com/in/chloe-zeng/
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/ApiAutomation \
-Build in .NETFramework472, Unit Test Provider is `Specflow.MsTest`
+( Build in .NETFramework472, Unit Test Provider is `Specflow.MsTest`)
 
 ### project introduction
 There are multiple options to test Api eg: Postman, Swagger. In this Demo, I am using RestSharp which is one of the most used library for REST API automation testing. Also, this project is using BDD style

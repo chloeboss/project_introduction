@@ -10,9 +10,8 @@ chloezeng310@gmail.com
 +64 021 183 2827
 Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
-
-#### [Cypress Test Project Live Demo link(host in github)](https://github.com/chloeboss/appiumTests/tree/develop)
-
+#### Repo link
+https://github.com/chloeboss/cypressTest
 
 ## project introduction
 This tool is using for end-to-end, Integration testing which only written in JavaScript. for info please go cypress website

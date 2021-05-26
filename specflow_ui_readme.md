@@ -14,7 +14,7 @@ Linkedin: https://www.linkedin.com/in/chloe-zeng/
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/WebAutomation \
-Build in .NETFramework472, Unit Test Provider is `Specflow.Nunit`
+( Build in .NETFramework472, Unit Test Provider is `Specflow.Nunit`)
 
 ### feature scenarios
 Here is the example ui scenario

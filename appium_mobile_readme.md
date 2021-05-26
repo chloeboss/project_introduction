@@ -7,8 +7,8 @@ chloezeng310@gmail.com
 +64 021 183 2827
 Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
-
-#### [Appium Test Project Live Demo link(host in github)](https://github.com/chloeboss/appiumTests/tree/develop)
+#### Repo link
+https://github.com/chloeboss/appiumTests/tree/develop
 
 ## 📹 Demo
 <img src="images/appiumRun.gif" alt="appiumRun" width="700"/>
