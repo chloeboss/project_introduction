@@ -47,7 +47,7 @@ Scenario: Get Todos
 	When Send GET method
 	Then success code 200
 	Then Verify object 1 Response body fields 
-	    | Field     | Value |
+	| Field     | Value |
         | Id        | 1     |
         | userId    | 1     |
         | completed | false |
