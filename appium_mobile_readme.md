@@ -20,9 +20,6 @@ Linkedin: https://www.linkedin.com/in/chloe-zeng/
 
 ## run tests
 Your environment needs to be set up for the particular platforms that you want to run tests on. Each of the drivers above documents the requirements for their particular brand of automation. At a minimum, you will need to be able to run Node.js 12+.
-add gif\
-``` mvn clean test```
-
 
 ## Key Features
 ♨️ Testing frameworks TestNG\
