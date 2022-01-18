@@ -7,7 +7,6 @@
 ```
 Chloe Zeng
 chloezeng310@gmail.com
-+64 021 183 2827
 Linkedin: https://www.linkedin.com/in/chloe-zeng/
 ```
 
@@ -47,7 +46,7 @@ Scenario: Get Todos
 	When Send GET method
 	Then success code 200
 	Then Verify object 1 Response body fields 
-	    | Field     | Value |
+	| Field     | Value |
         | Id        | 1     |
         | userId    | 1     |
         | completed | false |
