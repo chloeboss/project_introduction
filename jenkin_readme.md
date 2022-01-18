@@ -24,4 +24,4 @@ Here I have run both c# tests and java tests in Jenkins which installed in Docke
 
 
 #### Cucumber api tests run in Jenkins/ Docker
-<img src="images/jenkins3.png" alt="jenkins-cucumber" width="700"/>
+<img src="images/jenkins3.jpg" alt="jenkins-cucumber" width="700"/>
