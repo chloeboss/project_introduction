@@ -5,11 +5,7 @@
 <a href="https://dev.azure.com/chlozeng/MyFirstProject/_dashboards/dashboard/0b27603f-ca0a-4ddd-a108-85bae3788ac8"><img src="https://vsrm.dev.azure.com/chlozeng/_apis/public/Release/badge/d03ef986-5372-4396-a097-e68e1d803625/15/15"/>
 
 #### Author Contact Info
-```
-Chloe Zeng
-chloezeng310@gmail.com
-Linkedin: https://www.linkedin.com/in/chloe-zeng/
-```
+
 
 #### Repo link
 https://github.com/chloeboss/specflow-demo/tree/develop/WebAutomation \
