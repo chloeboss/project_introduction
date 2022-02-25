@@ -2,12 +2,7 @@
 
 [![Build Status](https://dev.azure.com/chlozeng/MyFirstProject/_apis/build/status/chloeboss.cucumber-api-demo?branchName=develop)](https://dev.azure.com/chlozeng/MyFirstProject/_build/latest?definitionId=13&branchName=develop)
 
-#### Author Contact Info
-```
-Chloe Zeng
-chloezeng310@gmail.com
-Linkedin: https://www.linkedin.com/in/chloe-zeng/
-```
+
 #### Repo link 
 https://github.com/chloeboss/cucumber-api-demo
 
